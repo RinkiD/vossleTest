@@ -1,0 +1,29 @@
+table {
+        table-layout: fixed;
+        word-wrap: break-word;
+      }
+
+      @media (min-width: 768px) {
+
+        .form-inline .radio input[type="radio"],
+        .form-inline .checkbox input[type="checkbox"] {
+          float: left;
+          margin-right: 5px;
+        }
+      }
+
+      .mySkip {
+        width: 150px !important;
+      }
+
+      .myNext {
+        width: 150px !important;
+      }
+
+      tbody>tr:hover {
+        background-color: #f5f6f6 !important;
+      }
+    
+      #wpcontent {
+        padding-left: 0px !important;
+      }

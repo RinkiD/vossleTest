@@ -1,0 +1,41 @@
+.vossle-body-wrapper {
+    background: #f5f6f6;
+    height: calc(100vh - 80px);
+}
+.card {
+    min-width: 100%;
+}
+
+#wpwrap > #wpcontent {
+    padding-left: 0;
+}
+
+.vossle-head {
+    background: #1a3b51;
+    min-height: 10px;
+    max-height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.vossle_logo{
+    max-height: 50px;
+    margin-left: 30px;
+}
+
+.main-panel {
+    padding: .7em 2em 1em;
+}
+.main-panel-wrapper {
+    margin-top: 50px;
+}
+
+#wpfooter{
+    background-color: #f5f6f6;
+}
+
+#wpbody-content {
+    padding-bottom: 0 !important;
+}
+

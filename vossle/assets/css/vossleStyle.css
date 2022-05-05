@@ -1,0 +1,15 @@
+#toplevel_page_vossle-vossle .wp-submenu-wrap li:nth-child(4){
+	display:none !important;
+}
+#toplevel_page_vossle-vossle .wp-submenu-wrap li:nth-child(5){
+	display:none !important;
+}
+
+#adminmenu .wp-menu-image img {
+	padding: 0px !important;
+}
+
+
+#wpwrap {
+    background: #f5f6f6;
+}
