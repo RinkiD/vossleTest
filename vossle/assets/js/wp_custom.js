@@ -92,6 +92,7 @@ jQuery( document ).ready( function() {
     jQuery( '.dl_itm' ).on('click', function( e ) {
         var link = this;
         var itm = jQuery(link).attr('del-vl');
+        console.log('itm',itm);
         var nonce_feild = document.querySelector('[name="_wpnonce"]').value;
         var client = vossle_ar_experience_params.user_id;
         if (itm != '') {
@@ -108,8 +109,9 @@ jQuery( document ).ready( function() {
                 jQuery.post( vossle_ar_experience_params.ajaxurl, data, function( data ) {
                     
                     let response = JSON.parse(data);
-                    console.log(response);
-                    if (jQuery.trim(response.data) == "1") {
+                    console.log(response.data);
+                    
+                    if (jQuery.trim(response.data) == itm) {
                         jQuery('#data_' + itm).remove();
                     } else {
                         return false;

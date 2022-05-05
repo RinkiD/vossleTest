@@ -434,7 +434,7 @@ class Vossle {
 			$client_id = sanitize_text_field($_POST['client_id']);
 			// $url = 'https://dashboard.vossle.com/API/removeAr';
 			$http_host = self::API_HOST;
-			$url = "{$http_host}/delete";
+			$url = "{$http_host}delete";
 			$args = array(
 				'body' => array('ar_id' => $id,'client_id' => $client_id)
 			);
